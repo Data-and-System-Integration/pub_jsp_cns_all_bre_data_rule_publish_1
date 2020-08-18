@@ -13,10 +13,9 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
 
 	
-
 	public pub_cns_combined_flattened_bre() {
 	}
-	private String data_mail_date;
+	private java.util.Date data_mail_date = new Date();;
 	private String string_data_multi_choice_codes_26;
 	private String string_data_multi_choice_codes_25;
 	private String string_data_multi_choice_codes_24;
@@ -99,8 +98,8 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private String panelist_cns_raw_values_1;
 	private String panelist_cns_raw_values_0;
 	private String panelist_business;
-	private String data_updated_date;
-	private String data_survey_start_date;
+	private java.util.Date data_updated_date = new Date();
+	private java.util.Date data_survey_start_date = new Date();
 	private String data_reserved_fields__filler_2;
 	private String data_questionnaire_values_15;
 	private String data_questionnaire_values_14;
@@ -146,7 +145,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private String data_cns_raw_values_1;
 	private String data_cns_raw_values_0;
 	private String data_business;
-	private String data_added_date;
+	private java.util.Date data_added_date = new Date();
 	private java.util.List<String> panelist_raw_fields  = new ArrayList<java.lang.String>();
 	private java.util.List<String> data_raw_fields  = new ArrayList<java.lang.String>();
 	private java.util.List<java.math.BigDecimal> panelist_user_defined_fields = new ArrayList<java.math.BigDecimal>();
@@ -1853,14 +1852,14 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String string_data_multi_choice_codes_29;
 	private java.lang.String string_data_multi_choice_codes_28;
 	private java.lang.String string_data_multi_choice_codes_27;
-	private java.lang.String panelist_updated_date;
-	private java.lang.String panelist_survey_start_date;
-	private java.lang.String panelist_projection_date;
-	private java.lang.String panelist_mail_date;
+	private java.util.Date panelist_updated_date = new Date();
+	private java.util.Date panelist_survey_start_date = new Date();
+	private java.util.Date panelist_projection_date = new Date();
+	private java.util.Date panelist_mail_date = new Date();
 	private java.lang.String panelist_cns_date_values_2;
 	private java.lang.String panelist_cns_date_values_1;
 	private java.lang.String panelist_cns_date_values_0;
-	private java.lang.String panelist_added_date;
+	private java.util.Date panelist_added_date = new Date();
 	private java.lang.String data_extended_dml_flag;
 	private java.lang.String data_cns_date_values_2;
 	private java.lang.String data_cns_date_values_1;
@@ -1873,10 +1872,10 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.util.List<com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish_1.panelist_user_defined_multi> panelist_user_defined_multi;
 
 
-	public String getData_mail_date() {
+	public java.util.Date getData_mail_date() {
 		return data_mail_date;
 	}
-	public void setData_mail_date(String data_mail_date) {
+	public void setData_mail_date(java.util.Date data_mail_date) {
 		this.data_mail_date = data_mail_date;
 	}
 	public String getString_data_multi_choice_codes_26() {
@@ -2371,16 +2370,16 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	public void setPanelist_business(String panelist_business) {
 		this.panelist_business = panelist_business;
 	}
-	public String getData_updated_date() {
+	public java.util.Date getData_updated_date() {
 		return data_updated_date;
 	}
-	public void setData_updated_date(String data_updated_date) {
+	public void setData_updated_date(java.util.Date data_updated_date) {
 		this.data_updated_date = data_updated_date;
 	}
-	public String getData_survey_start_date() {
+	public java.util.Date getData_survey_start_date() {
 		return data_survey_start_date;
 	}
-	public void setData_survey_start_date(String data_survey_start_date) {
+	public void setData_survey_start_date(java.util.Date data_survey_start_date) {
 		this.data_survey_start_date = data_survey_start_date;
 	}
 	public String getData_reserved_fields__filler_2() {
@@ -2653,10 +2652,10 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	public void setData_business(String data_business) {
 		this.data_business = data_business;
 	}
-	public String getData_added_date() {
+	public java.util.Date getData_added_date() {
 		return data_added_date;
 	}
-	public void setData_added_date(String data_added_date) {
+	public void setData_added_date(java.util.Date data_added_date) {
 		this.data_added_date = data_added_date;
 	}
 	public java.util.List<String> getPanelist_raw_fields() {
@@ -13097,28 +13096,28 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	public void setString_data_multi_choice_codes_27(java.lang.String string_data_multi_choice_codes_27) {
 		this.string_data_multi_choice_codes_27 = string_data_multi_choice_codes_27;
 	}
-	public java.lang.String getPanelist_updated_date() {
+	public java.util.Date getPanelist_updated_date() {
 		return panelist_updated_date;
 	}
-	public void setPanelist_updated_date(java.lang.String panelist_updated_date) {
+	public void setPanelist_updated_date(java.util.Date panelist_updated_date) {
 		this.panelist_updated_date = panelist_updated_date;
 	}
-	public java.lang.String getPanelist_survey_start_date() {
+	public java.util.Date getPanelist_survey_start_date() {
 		return panelist_survey_start_date;
 	}
-	public void setPanelist_survey_start_date(java.lang.String panelist_survey_start_date) {
+	public void setPanelist_survey_start_date(java.util.Date panelist_survey_start_date) {
 		this.panelist_survey_start_date = panelist_survey_start_date;
 	}
-	public java.lang.String getPanelist_projection_date() {
+	public java.util.Date getPanelist_projection_date() {
 		return panelist_projection_date;
 	}
-	public void setPanelist_projection_date(java.lang.String panelist_projection_date) {
+	public void setPanelist_projection_date(java.util.Date panelist_projection_date) {
 		this.panelist_projection_date = panelist_projection_date;
 	}
-	public java.lang.String getPanelist_mail_date() {
+	public java.util.Date getPanelist_mail_date() {
 		return panelist_mail_date;
 	}
-	public void setPanelist_mail_date(java.lang.String panelist_mail_date) {
+	public void setPanelist_mail_date(java.util.Date panelist_mail_date) {
 		this.panelist_mail_date = panelist_mail_date;
 	}
 	public java.lang.String getPanelist_cns_date_values_2() {
@@ -13139,10 +13138,10 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	public void setPanelist_cns_date_values_0(java.lang.String panelist_cns_date_values_0) {
 		this.panelist_cns_date_values_0 = panelist_cns_date_values_0;
 	}
-	public java.lang.String getPanelist_added_date() {
+	public java.util.Date getPanelist_added_date() {
 		return panelist_added_date;
 	}
-	public void setPanelist_added_date(java.lang.String panelist_added_date) {
+	public void setPanelist_added_date(java.util.Date panelist_added_date) {
 		this.panelist_added_date = panelist_added_date;
 	}
 	public java.lang.String getData_extended_dml_flag() {
